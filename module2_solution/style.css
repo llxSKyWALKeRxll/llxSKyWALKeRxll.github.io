@@ -12,6 +12,15 @@
 #b3 {
 	background-color: lightcoral;
 }
+#ha {
+	background-color: lightcyan;
+}
+#hb {
+	background-color: lightpink;
+}
+#hc {
+	background-color: lightseagreen;
+}
 .box {
 	width: 100%;
 	height: 300px;
