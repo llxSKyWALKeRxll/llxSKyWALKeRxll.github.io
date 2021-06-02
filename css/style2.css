@@ -1,0 +1,13 @@
+.row {
+	margin-bottom: 10px;
+}
+
+.row > div {
+	border: 3px solid gray;
+	background-color: lightcyan;
+}
+
+.row > div:hover {
+	background-color: gray;
+	border: 3px solid darkcyan;
+}
