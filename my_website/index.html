@@ -14,7 +14,7 @@
 		<nav id="header-nav" class="navbar navbar-default">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="d-none d-sm-block d-md-block d-lg-block" title="Sky's Den">
+					<a href="index.html" class="float-start d-none d-sm-block d-md-block d-lg-block" title="Sky's Den">
 						<div id="logo-img"></div>
 					</a>
 
@@ -25,8 +25,51 @@
 						<p>
 							<span>Informative articles, blogs & more...</span>
 						</p>
+						<p>
+							<span>Coding | Science | Sports </span>
+						</p>
 					</div>
+
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu1" aria-controls="nav-menu1" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon">≡</span>
+					</button>
 				</div>
+
+				<div class="collapse navbar-collapse" id="nav-menu1">
+			      	<ul class="navbar-nav mr-auto mb-2 mb-lg-0" id="nav-list1">
+			        	<li class="nav-item">
+			          		<a class="nav-link active" aria-current="page" href="index.html" id="a1">HOME</a>
+			        	</li>
+			        	<li class="nav-item">
+			          		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			          		ARTICLES
+			          		</a>
+			          		<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          			<li><a class="dropdown-item" href="#">Coding</a></li>
+			            		<li><a class="dropdown-item" href="#">Sports</a></li>
+			            		<li><a class="dropdown-item" href="#">Others...</a></li>
+			          		</ul>
+			        	</li>
+			        	<li class="nav-item dropdown">
+			          		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			            		BLOGS
+			          		</a>
+			          		<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			            		<li><a class="dropdown-item" href="#">Coding</a></li>
+			            		<li><a class="dropdown-item" href="#">Sports</a></li>
+			            		<li><a class="dropdown-item" href="#">Others...</a></li>
+			          		</ul>
+			        	</li>
+			        	<li class="nav-item">
+			        		<a class="nav-link active" aria-current="page" href="#" id="a2">ABOUT ME</a>
+			        	</li>
+			      	</ul>
+			      	<form class="d-flex">
+			        	<input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+			        	<button class="btn btn-outline-success" type="submit" id="searchbtn">Search</button>
+			      	</form>
+			    </div>
+
 			</div>
 		</nav>
 	</header>
