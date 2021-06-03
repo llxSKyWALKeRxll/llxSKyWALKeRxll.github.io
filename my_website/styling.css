@@ -1,0 +1,47 @@
+body {
+	font-size: 17px;
+	font-family: 'Play', sans-serif;
+	background-color: lightblue;
+}
+
+#header-nav {
+	background-color: lightcoral;
+	border-radius: 0;
+	border: 0;
+}
+
+/* Header logo image */
+#logo-img {
+	float: left;
+	background: url(images/skyden1a.jpg) no-repeat;
+	width: 180px;
+	height: 150px;
+	margin: 5px 15px 10px 0px;
+	background-size: cover;
+}
+
+.navbar-brand {
+	padding-top: 20px;
+}
+
+/* Sky's Den heading besides logo */
+.navbar-brand h1 {
+	font-family: 'Squada One', cursive;
+	color: black;
+	font-size: 1.6em;
+	font-weight: bold;
+	text-shadow: 3px 2px 3px powderblue;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	line-height: 1.3;
+}
+
+/* Descriptive text below heading */
+.navbar-brand p {
+	font-size: 0.8em;
+	margin-top: 5px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link {
+	text-decoration: none;
+}
