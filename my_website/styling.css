@@ -72,11 +72,15 @@ body {
 .navbar-toggler {
 	color: lightcoral;
 	background-color: lightblue;
+	position: absolute;
+	top: 40px;
+	right: 40px;
 }
 
 .navbar-toggler:hover {
 	color: whitesmoke;
 	background-color: black;
+	border: 1px solid white;
 }
 
 #searchbtn {
@@ -90,13 +94,60 @@ body {
 	border: 1px solid white;
 }
 
+.slideControlButtons {
+	font-size: 3.5vw;
+}
+
+#imageSlideShow {
+	padding: 25px 100px 25px 100px;
+	width: 96.8vw;
+	margin: 5px;
+}
+
+.allSlideImages {
+	height: 100%;
+	object-fit: fill;
+	border: 4px solid lightcoral;
+}
+
+.slideImageCaptions {
+	font-size: 1.7em;
+	color: whitesmoke;
+	position: absolute;
+	bottom: -5px;
+	font-weight: bold;
+}
+
+.slideImageContainer {
+	width: 100%;
+	height: 100%;
+}
+
+/* Large devices */
+@media (min-width: 1200px) {
+	.slideImageContainer .allSlideImages {
+
+	}
+}
+
+/* Medium devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Small devices */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Extra small devices */
 @media (max-width: 767px) {
 	.navbar-brand h1 {
 		font-size: 6.5vw;
 	}
 
 	.navbar-brand p {
-		font-size: 3.5vw;
+		font-size: 3.4vw;
 	}
 
 	#logo-img {
