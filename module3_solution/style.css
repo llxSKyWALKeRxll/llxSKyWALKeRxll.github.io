@@ -1,0 +1,219 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+#nav-menu1 {
+	background-color: lightgoldenrodyellow;
+}
+#top1 {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.menuHeading {
+	text-align: center;
+	padding-top: 10px;
+}
+#footerHeading {
+	text-decoration: none;
+	color: black;
+}
+#b1 {
+	background-color: lightgoldenrodyellow;
+	height: 100%;
+}
+#b2 {
+	background-color: lightgreen;
+	height: 100%;
+}
+#b3 {
+	background-color: lightcoral;
+	height: 100%;
+}
+#ha {
+	background-color: lightcyan;
+}
+#hb {
+	background-color: lightpink;
+}
+#hc {
+	background-color: lightseagreen;
+}
+#b1a {
+	background-color: lightsalmon;
+}
+.box {
+	width: 100%;
+	height: 100%;
+	padding: 0px 15px 30px 15px;
+	border: 1px solid black;
+}
+.box > p {
+	padding: 10px 0px 0px;
+}
+.headin {
+	margin: 0px;
+	padding: 30px 0px 50px 0px;
+}
+.container {
+	max-width: 100%;
+	border: none;
+	position: relative;
+	margin-left: 13px;
+	margin-right: auto;
+}
+.container .justify-content-md-center {
+	margin-left: -5px;
+}
+.row {
+	width: 100%;
+
+}
+div > h2 {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	border: 1px solid black;
+	width: 41%;
+	margin-left: 63.50%;
+}
+body {
+	background-color: antiquewhite;
+}
+body {
+	font-size: 17px;
+	font-family: 'Play', sans-serif;
+	background-color: lightblue;
+}
+
+.vl {
+	border-left: 3px solid white;
+	height: 30px;
+}
+
+.row #emailTag {
+	color: white;
+	text-align: center;
+	font-size: 1.8vw;
+}
+
+#emailTag {
+	text-align: center;
+}
+
+#writtenBody {
+	padding: 20px;
+}
+
+.container {
+	margin-left: 0px;
+}
+
+#header-nav {
+	background-color: lightcoral;
+	border-radius: 0;
+	border: 0;
+}
+
+#footer-nav {
+	background-color: #292327;
+}
+
+#footer-nav span {
+	color: white;
+}
+
+.navbar-brand {
+	padding-top: 20px;
+}
+
+/* Sky's Den heading besides logo */
+.navbar-brand h1 {
+	font-family: 'Squada One', cursive;
+	color: black;
+	font-size: 1.55em; /* 1.55em */
+	font-weight: bold;
+	text-shadow: 3px 2px 3px powderblue;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.3;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:link {
+	text-decoration: none;
+}
+
+.nav-item a:hover, .nav-item a:focus, .nav-item a:link {
+	text-decoration: none;
+	color: black;
+}
+
+#navbarDropdown, #a1, #a2 {
+	color: black;
+	text-align: center;
+}
+
+#navbarDropdown:hover, #a1:hover, #a2:hover {
+	color: white;
+	background-color: black;
+	border: 1px solid white;
+}
+
+.dropdown-menu {
+	text-align: center;
+}
+
+.navbar-toggler {
+	color: lightcoral;
+	background-color: lightblue;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	height: 30px;
+}
+
+.navbar-toggler:hover {
+	color: whitesmoke;
+	background-color: black;
+	border: 1px solid white;
+}
+
+#imageSlideShow {
+	padding: 25px 10px 25px 10px;
+	width: 98.8vw;
+}
+
+.allSlideImages {
+	height: 100%;
+	object-fit: fill;
+	border: 4px solid lightcoral;
+}
+
+.slideImageContainer {
+	width: 100%;
+	height: 100%;
+}
+
+.slideImageCaptions {
+	color: limegreen;
+	position: absolute;
+	bottom: -5px;
+	font-weight: bold;
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767px) {
+	.navbar-brand h1 {
+		font-size: 5.5vw;
+	}
+}
+
+/* Extra small devices */
+@media (max-width: 575px) {
+	.navbar-brand h1 {
+		font-size: 5.5vw;
+	}
+}
+.row > * {
+	padding-bottom: 25px;
+}
