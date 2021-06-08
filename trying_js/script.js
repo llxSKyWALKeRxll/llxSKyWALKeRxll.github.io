@@ -1,16 +1,30 @@
-function a1(x) {
-	return x * 2;
-}
-a1.version = 'v-1.03';
+function sayHello(event) {
+	console.log(event);
 
-function a2(x) {
-	return x / 2;
+	var input1 = document.querySelector("#i1").value;
+
+	if (input1 === '') {
+		return;
+	}
+
+	var msg = "<h2>Hello, " + input1 + "! =)</h2>";
+	document.querySelector("#content").innerHTML = msg;
+
+	if(input1 === 'Sky' || input1 === 'sky') {
+		document.querySelector("#headin").textContent = 
+		"Welcome to Sky's Den";
+	}
+
+	this.textContent = 'GREETED'
 }
 
-function perform(x, operation) {
-	return operation(x);
-}
+// document.querySelector('#b1').addEventListener('click', sayHello);
+document.querySelector('#b1').onclick = sayHello;
 
-console.log(perform(10, a1));
-console.log(perform(10, a2));
-console.log(Math.PI);
+document.querySelector('body').onmousemove = 
+	function printCoOrds(event) {
+		if (event.shiftKey) {
+			console.log('x: ' + event.clientX);
+			console.log('y: ' + event.clientY);
+		}
+	}
